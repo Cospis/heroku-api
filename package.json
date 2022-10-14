@@ -1,0 +1,23 @@
+{
+  "name": "moyo_node",
+  "version": "1.0.0",
+  "description": "count practice",
+  "main": "index.js",
+  "scripts": {
+    "start": "node backend/index.js",
+    "server": "nodemon backend/index.js"
+  },
+  "author": "moyo",
+  "license": "MIT",
+  "dependencies": {
+    "async-handler": "^0.0.3",
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "mongoose": "^6.6.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
